@@ -1,3 +1,3 @@
-module htmlserver
+module example
 
 go 1.20

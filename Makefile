@@ -1,3 +1,5 @@
+compile_protos:
+	
 build:
-	cd cmd/server/ && go build -o ../../bin/
-	cd cmd/client/ && go build -o ../../bin/
+	cd cmd/server/ && go install
+	cd cmd/client/ && go install
